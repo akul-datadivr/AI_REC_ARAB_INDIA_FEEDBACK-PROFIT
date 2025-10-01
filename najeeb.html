@@ -36,7 +36,7 @@
 
     /* checkbox + name in one line, no wrap, ellipsis if too long */
     label.cell { display:flex; align-items:center; gap:8px; justify-content:flex-start; white-space:nowrap; overflow:hidden }
-    label.cell span.name { display:inline-block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:100% }
+    label.cell span.name { display:inline-block; white-space:normal; overflow:visible; text-overflow:unset; max-width:100% }
   </style>
 </head>
 <body>
@@ -304,3 +304,4 @@
   </script>
 </body>
 </html>
+
